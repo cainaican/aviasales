@@ -96,7 +96,7 @@ class Tickets {
        arr = radioList[i].id
       }
     }
-    console.log(arr)
+    
      this._filteredCompanies = (arr === 'radio_1' || arr === '')
        ? this._filteredCompanies = [...this._Companies._companies]
        : this._filteredCompanies.filter(comp => comp.id === arr)
